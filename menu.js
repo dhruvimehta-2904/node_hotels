@@ -29,6 +29,8 @@ const menuSchema = new mongoose.Schema ({
     }
 
 })
+//connected
 
 const menuitem = mongoose.model('menuItem', menuSchema);
 module.exports = menuitem;
+
